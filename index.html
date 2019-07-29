@@ -11,7 +11,6 @@
 
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/simple.css">
 	<link rel="stylesheet" href="css/codemortals.css">
 
     <!-- Font Awesome -->
@@ -37,16 +36,88 @@
 			<section>
 				<section>
 					<h2>Pipeline Driven Development</h2>
-					<p>using :: Angular / Cypress / Cucumber</p>
+					<h3>Angular / Cypress / Cucumber</h3>
+                    <p>by</p>
+                    <p>Code Mortals</p>
 				</section>
 			</section>
 
 			<section>
 				<section>
-						<h2>Angular</h2>
-				</section>
+					<h2><i class="fab fa-angular fa-lg"></i>ngular</h2>
+                    <p>Framework built by Google</p>
+                    <ul>
+                        <li>Cross Platform</li>
+                        <li>Speed and Performance</li>
+                        <li>Productivity</li>
+                        <li>Full development pipeline</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Cross Platform</p>
+                        <ul>
+                            <li>Progressive Web Apps</li>
+                            <li>Native (Cordova, Ionic, NativeScript)</li>
+                            <li>Desktop</li>
+                        </ul>
+
+                        <p>Speed and Performance</p>
+                        <ul>
+                            <li>Code Generation (Tree shaking)</li>
+                            <li>Universal (SSR)</li>
+                            <li>Code Splitting (Router & Lazy Loading)</li>
+                        </ul>
+
+                        <p>Productivity</p>
+                        <ul>
+                            <li>Templates</li>
+                            <li>Angular CLI</li>
+                            <li>IDEs (most IDEs have plugins)</li>
+                        </ul>
+
+                        <p>Full development pipeline</p>
+                        <ul>
+                            <li>Testing (Karma and Protractor)</li>
+                            <li>Animations (built in API)</li>
+                            <li>Accessibility (ARIA & a11y)</li>
+                        </ul>
+                    </aside>
+                </section>
+
 				<section>
-						<h2>CLI</h2>
+                    <h3>Get Started</h3>
+                    <div class="stack">
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">$ npm i -g @angular/cli</code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    $ ng new codemortals
+                                    ? Would you like to add Angular routing? Yes
+                                    ? Which stylesheet format would you like to use? (Use arrow keys)
+                                      CSS
+                                    ❯ SCSS   [ https://sass-lang.com/documentation/syntax#scss                ]
+                                      Sass   [ https://sass-lang.com/documentation/syntax#the-indented-syntax ]
+                                      Less   [ http://lesscss.org                                             ]
+                                      Stylus [ http://stylus-lang.com                                         ]
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    cd codemortals
+                                    npm start
+                                </code>
+                            </pre>
+                            <p class="caption">open browser <strong>http://localhost:4200</strong></p>
+                        </div>
+                        <div class="fragment fade-in">
+                            <img src="/images/angular-cli-init.png">
+                        </div>
+                    </div>
 				</section>
 			</section>
 
@@ -82,19 +153,12 @@
 					<h2>Conclusion</h2>
 
 					<p>Automate everything!</p>
-				</section>
-			</section>
 
-			<section>
-				<section>
-					<h2>Join us</h2>
-					<ul>
-						<li>YouTube: @CodeMortals</li>
-						<li>Twitter: @CodeMortals</li>
-						<li>Facebook: @CodeMortals</li>
-						<li>Instagram: @CodeMortals</li>
-						<li>LinkedIn: @CodeMortals</li>
-					</ul>
+                    <h3>Further Reading</h3>
+                    <ul>
+                        <li>TypeScript</li>
+                        <li>BDD / Gherkin (Cucumber)</li>
+                    </ul>
 				</section>
 			</section>
 
@@ -153,7 +217,7 @@
 			hash: false,
 
 			// Push each slide change to the browser history. Implies `hash: true`
-			history: false,
+			history: true,
 
 			// Enable keyboard shortcuts for navigation
 			keyboard: true,
