@@ -1,21 +1,31 @@
 body {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 
-  display: grid;
-  grid-template-columns: min-content 1fr;
-  grid-auto-flow: column;
-  grid-auto-columns: min-content;
-  grid-gap: 1rem;
-  align-items: end;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    grid-gap: 1rem;
+    align-items: end;
 
-  font-size: 1.2rem;
-  color: #FFC4AB;
+    font-size: 1.2rem;
+    color: #FFC4AB;
 
-  padding: 1em;
+    padding: 1em;
+}
+
+footer .social {
+    display: grid;
+    grid-gap: 0.5em;
+    justify-items: center;
+}
+
+footer .social .icons > * {
+    margin-right: 0.25em;
 }
