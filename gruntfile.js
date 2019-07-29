@@ -9,19 +9,19 @@ module.exports = grunt => {
 
 	if (!Array.isArray(root)) root = [root];
 
-	// Project configuration
-	grunt.initConfig({
-		pkg: grunt.file.readJSON('package.json'),
-		meta: {
-			banner:
-				'/*!\n' +
-				' * reveal.js <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)\n' +
-				' * http://revealjs.com\n' +
-				' * MIT licensed\n' +
-				' *\n' +
-				' * Copyright (C) 2019 Hakim El Hattab, http://hakim.se\n' +
-				' */'
-		},
+        // Project configuration
+        grunt.initConfig({
+        pkg: grunt.file.readJSON('package.json'),
+        meta: {
+            banner:
+                '/*!\n' +
+                ' * reveal.js <%= pkg.version %> (<%= grunt.template.today("yyyy-mm-dd, HH:MM") %>)\n' +
+                ' * http://revealjs.com\n' +
+                ' * MIT licensed\n' +
+                ' *\n' +
+                ' * Copyright (C) 2019 Hakim El Hattab, http://hakim.se\n' +
+                ' */'
+        },
 
 		qunit: {
 			files: [ 'test/*.html' ]
