@@ -36,7 +36,7 @@
 			<section>
 				<section>
 					<h2>Pipeline Driven Development</h2>
-					<h3>Angular / Cypress / Cucumber</h3>
+					<h3>Angular / Firebase / Cypress</h3>
                     <p>by</p>
                     <p>Code Mortals</p>
 				</section>
@@ -123,50 +123,304 @@
 
 			<section>
 				<section>
-						<h2>CI</h2>
+                    <h2>Continuous Integration (CI)</h2>
+                    <p>Automation Engine</p>
+                    <ul>
+                        <li>Simplifies team processes</li>
+                        <li>Provides rapid feedback</li>
+                        <li>Upgrade project confidence</li>
+                        <li>Reduces delivery overheads</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Simplifies team processes</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <p>Provides rapid feedback</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <p>Upgrade project confidence</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <p>Reduces delivery overheads</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </aside>
 				</section>
 				<section>
-						<h2>CircleCI</h2>
+                    <h2>CircleCI</h2>
+                    <div class="stack">
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    version: 2
+
+                                    jobs: ....
+
+                                    workflow: ....
+                                </code>
+                            </pre>
+                            <p class="caption">circle.yml</p>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    jobs:
+                                      build-code:
+                                        docker:
+                                          - image: circleci/node:10
+                                        steps:
+                                          - checkout
+                                          - run: npm install
+                                          - run: npm run build
+
+                                      build-docs:
+                                        docker:
+                                        steps:
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    workflow:
+                                      - build-code
+                                      - build-docs
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in">
+                            <img src="/images/ci-circle-overview.png">
+                        </div>
+                        <div class="fragment fade-in">
+                            <img src="/images/ci-circle-workflow.png">
+                        </div>
+                    </div>
 				</section>
 			</section>
 
 			<section>
 				<section>
-						<h2>CD</h2>
+                    <h2>Continuous Delivery (CD)</h2>
+                    <p>Deployment Automation</p>
+                    <ul>
+                        <li>Frequent release cycle</li>
+                        <li>Iterative improvements</li>
+                        <li>Repeatable process</li>
+                        <li>Enables change</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Frequent release cycle</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <p>Iterative improvements</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <p>Repeatable process</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <p>Enables change</p>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </aside>
 				</section>
 				<section>
-						<h2>Firebase</h2>
+                    <h2>Firebase</h2>
+                    <div class="stack">
+                        <div class="fragment fade-in-then-out">
+                            <img src="/images/cd-firebase-dashboard.png">
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    $ npm i --save-dev firebase-tools
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    $ npx firebase login
+                                    $ npx firebase init
+
+                                    ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confirm your choices.
+                                      ◯ Database: Deploy Firebase Realtime Database Rules
+                                      ◯ Firestore: Deploy rules and create indexes for Firestore
+                                      ◯ Functions: Configure and deploy Cloud Functions
+                                    ❯ ◉ Hosting: Configure and deploy Firebase Hosting sites
+                                      ◯ Storage: Deploy Cloud Storage security rules
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    === Project Setup
+
+                                    ? Select a default Firebase project for this directory:
+                                      [don't setup a default project]
+                                    ❯ codemortals-website (Website)
+                                      [create a new project]
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    === Hosting Setup
+
+                                    ? What do you want to use as your public directory? dist
+
+                                    ? Configure as a single-page app (rewrite all urls to /index.html)? (y/N) y
+
+                                    ✔  Wrote dist/index.html
+
+                                    i  Writing configuration info to firebase.json...
+                                    i  Writing project information to .firebaserc...
+
+                                    ✔  Firebase initialization complete!
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    $ npx firebase login:ci
+
+                                    Visit this URL on any device to log in:
+                                    https://accounts.google.com/o/oauth2/auth?.....
+
+                                    Waiting for authentication...
+
+                                    ✔  Success! Use this token to login on a CI server:
+
+                                    1/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+                                    Example: firebase deploy --token "$FIREBASE_TOKEN"
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    deploy: &deploy
+                                      docker:
+                                        - image: google/cloud-sdk
+                                      steps:
+                                        - checkout
+                                        - run: npx firebase use --token $FIREBASE_KEY
+                                        - run: npx firebase deploy --token $FIREBASE_KEY
+
+                                    deploy-dev:
+                                      <<: *deploy
+
+                                    deploy-prod:
+                                      <<: *deploy
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs no-highlight">
+                                    workflow:
+                                      - build-code
+                                      - build-docs
+                                      - deploy-dev:
+                                          context: website-dev
+                                          requires:
+                                            - build-code
+                                          filters:
+                                            branches:
+                                              only: development
+                                      - deploy-prod:
+                                          context: website-prod
+                                          requires:
+                                            - build-code
+                                          filters:
+                                            branches:
+                                              only: production
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
 				</section>
 			</section>
 
 			<section>
 				<section>
-						<h2>Cypress</h2>
+                    <h2>Cypress</h2>
+                    <p>Browser Testing Automation</p>
 				</section>
 				<section>
-						<h2>Cucumber</h2>
+                    <h2>Cucumber</h2>
 				</section>
 			</section>
 
 			<section>
 				<section>
-					<h2>Conclusion</h2>
+					<h2>Automate everything!</h2>
+                    <p>Whatever your projects needs - automate it now</p>
+                    <ul>
+                        <li>Unit Tests</li>
+                        <li>End to End Tests</li>
+                        <li>Performance</li>
+                        <li>Security</li>
+                        <li>Accessibility</li>
+                        <li>and much much more!</li>
+                    </ul>
+				</section>
 
-					<p>Automate everything!</p>
-
-                    <h3>Further Reading</h3>
+				<section>
+                    <h2>Further Reading</h2>
+                    <p>We are always learning, try one new thing every day</p>
                     <ul>
                         <li>TypeScript</li>
                         <li>BDD / Gherkin (Cucumber)</li>
+                        <li>RTFM - documentation varies</li>
                     </ul>
 				</section>
+
+                <section>
+                    <h2>Any Questions?</h2>
+                    <img class="plain" src="https://codemortals.io/assets/mascot/11.png" alt="Code Mortals Mascot" />
+                    <p class="caption">P.S. Don't forget to follow us on socials and subscribe on YouTube <i class="fab fa-youtube-square fa-lg"></i></p>
+                </section>
 			</section>
 
 		</div>
 	</div>
 
 	<footer>
-		<img src="https://codemortals.io/assets/mascot/5.png" alt="Code Mortals Mascot" />
+		<img src="https://codemortals.io/assets/mascot/2.png" alt="Code Mortals Mascot" />
         <div class="social">
             <div>@codemortals</div>
             <div class="icons">
