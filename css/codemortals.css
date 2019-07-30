@@ -137,6 +137,17 @@ footer .social .icons > * {
     margin-right: 0.25em;
 }
 
+footer .reference {
+    display: grid;
+    grid-gap: 0.5em;
+    justify-items: center;
+}
+footer .reference a, footer .reference a:visited {
+    line-height: 1.5em;
+    font-size: 0.8em;
+    color: #F8F0EE;
+    text-decoration: none;
+}
 /*********************************************
  * OTHER
  *********************************************/
