@@ -337,6 +337,7 @@
                                         - image: google/cloud-sdk
                                       steps:
                                         - checkout
+                                        - run: npm run build
                                         - run: npx firebase use --token $FIREBASE_KEY
                                         - run: npx firebase deploy --token $FIREBASE_KEY
 
@@ -348,7 +349,7 @@
                                 </code>
                             </pre>
                         </div>
-                        <div class="fragment fade-in-then-out">
+                        <div class="fragment fade-in">
                             <pre>
                                 <code data-trim class="hljs no-highlight">
                                     workflow:
@@ -378,11 +379,118 @@
 			<section>
 				<section>
                     <h2>Cypress</h2>
-                    <p>Browser Testing Automation</p>
+                    <p>Browser testing automation</p>
+                    <ul>
+                        <li>Fast and Reliable</li>
+                        <li>Runs on the CLI or Desktop</li>
+                        <li>Real-time reloading & time travel</li>
+                        <li>Continuous regression testing</li>
+                    </ul>
+				</section>
+				<section>
+                    <div class="stack">
+                        <div class="fragment fade-in-then-out">
+                            <pre>
+                                <code data-trim class="hljs javascript">
+                                    describe('User authentication', function() {
+                                        it('Successful login of a valid user account', function() {
+                                            cy.visit('/login');
+                                            cy.get('form')
+                                                .within(() => {
+                                                    cy.get('input[id="username"]')
+                                                        .should('be.empty')
+                                                        .type('team@codemortals.io')
+                                                    cy.get('input[id="password"]')
+                                                        .should('be.empty')
+                                                        .type('ValidPassword')
+                                                    cy.get('button')
+                                                        .contains('Login')
+                                                        .should('not.be.disabled')
+                                                        .click()
+                                            });
+                                            cy.location()
+                                                .should((location) => {
+                                                    expect(location.pathname).to.eq('/account');
+                                                })
+                                        });
+                                    });
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
 				</section>
 				<section>
                     <h2>Cucumber</h2>
+                    <div class="stack">
+                        <div class="fragment fade-in-then-out">
+                            <p>Gherkin Syntax</p>
+                            <pre>
+                                <code data-trim class="hljs gherkin">
+                                    Scenario: Describe the scenario
+                                      Given there is a precondition
+                                      When an action or input occurs
+                                      Then an outcome should be observed
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <p>Gherkin Example (Happy Path)</p>
+                            <pre>
+                                <code data-trim class="hljs gherkin">
+                                    Scenario: Successful login of a valid user account
+                                      Given the "/login" page is open
+                                      When the "username" field is set to "team@codemortals.io"
+                                      And the "password" field is set to "ValidPassword"
+                                      Then the "Login" button should be "enabled"
+                                      When the "Login" button is clicked
+                                      Then the "/account" page is open
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in-then-out">
+                            <p>Gherkin Example (Sad Path)</p>
+                            <pre>
+                                <code data-trim class="hljs gherkin">
+                                    Scenario: Failure to login with an incorrect password
+                                      Given the "/login" page is open
+                                      When the "username" field is set to "team@codemortals.io"
+                                      And the "password" field is set to "IncorrectPassword"
+                                      Then the "Login" button should be "enabled"
+                                      When the "Login" button is clicked
+                                      Then the "/login" page is open
+                                      And an error message says "Invalid credentials"
+                                </code>
+                            </pre>
+                        </div>
+                        <div class="fragment fade-in">
+                            <p>Step definition</p>
+                            <pre>
+                                <code data-trim class="hljs javascript">
+                                    import { Given } from 'cypress-cucumber-preprocessor/steps';
+
+                                    Given('the {string} page is open', (path) => {
+                                        cy.visit(path);
+                                    });
+                                </code>
+                            </pre>
+                        </div>
+                    </div>
 				</section>
+                <section>
+                    <h2>Cucumber</h2>
+                    <p>The benefits (BDD)</p>
+                    <ul>
+                        <li>Collaborative (human readable)</li>
+                        <li>Re-usable step definitions</li>
+                        <li>Iteratively improve steps</li>
+                        <li>Enables consistency</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Bridges gaps between technical and non-technical</p>
+                        <p>Not just in this project but you can use the steps across many projects</p>
+                        <p>Just update a single step and everywhere using that step can benefit, vs having to update all tests everywhere</p>
+                    </aside>
+                </section>
 			</section>
 
 			<section>
@@ -390,17 +498,17 @@
 					<h2>Automate everything!</h2>
                     <p>Whatever your projects needs - automate it now</p>
                     <ul>
-                        <li>Unit Tests</li>
-                        <li>End to End Tests</li>
+                        <li>Functional Tests</li>
                         <li>Performance</li>
                         <li>Security</li>
                         <li>Accessibility</li>
-                        <li>and much much more!</li>
+                        <li>Deployment</li>
+                        <li>...and much much more!</li>
                     </ul>
 				</section>
 
 				<section>
-                    <h2>Further Reading</h2>
+                    <h2>Final Thoughts</h2>
                     <p>We are always learning, try one new thing every day</p>
                     <ul>
                         <li>TypeScript</li>
@@ -412,7 +520,7 @@
                 <section>
                     <h2>Any Questions?</h2>
                     <img class="plain" src="https://codemortals.io/assets/mascot/11.png" alt="Code Mortals Mascot" />
-                    <p class="caption">P.S. Don't forget to follow us on socials and subscribe on YouTube <i class="fab fa-youtube-square fa-lg"></i></p>
+                    <p class="caption">P.S. Don't forget to follow us on socials and <span style="text-decoration: underline">subscribe on YouTube</span> <i class="fab fa-youtube-square fa-lg"></i></p>
                 </section>
 			</section>
 
