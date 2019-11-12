@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="daa5c659-85c4-4c74-888d-28460b359a1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/presentation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/codemortals.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/codemortals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/print/paper.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/print/paper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/print/pdf.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/print/pdf.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reveal.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/reveal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/reveal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/reveal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/beige.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/beige.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/black.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/black.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/blood.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/blood.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/league.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/league.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/moon.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/moon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/night.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/night.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/serif.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/serif.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/simple.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/simple.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/sky.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/sky.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/solarized.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/solarized.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/beige.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/beige.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/black.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/black.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/blood.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/blood.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/league.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/league.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/moon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/moon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/night.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/night.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/serif.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/serif.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/simple.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/simple.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/sky.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/sky.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/solarized.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/solarized.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/source/white.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/source/white.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/template/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/template/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/template/settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/template/settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/template/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/template/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/theme/white.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/css/theme/white.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/angular-cli-init.png" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/images/angular-cli-init.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/cd-firebase-dashboard.png" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/images/cd-firebase-dashboard.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ci-circle-overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/images/ci-circle-overview.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ci-circle-workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/images/ci-circle-workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/reveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/js/reveal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/reveal.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/js/reveal.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/monokai.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/css/monokai.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/zenburn.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/css/zenburn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/league-gothic/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/league-gothic/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/league-gothic/league-gothic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/league-gothic/league-gothic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/league-gothic/league-gothic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/league-gothic/league-gothic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/font/source-sans-pro/source-sans-pro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/js/html5shiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/promise.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/lib/js/promise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/highlight/highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/highlight/highlight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/markdown/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/markdown/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/markdown/example.md" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/markdown/example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/markdown/markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/markdown/markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/markdown/marked.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/markdown/marked.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/math/math.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/math/math.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/multiplex/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/multiplex/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/multiplex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/multiplex/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/multiplex/master.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/multiplex/master.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/multiplex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/multiplex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/notes-server/client.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/notes-server/client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/notes-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/notes-server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/notes-server/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/notes-server/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/notes/notes.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/notes/notes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/notes/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/notes/notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/print-pdf/print-pdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/search/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/search/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/plugin/zoom-js/zoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/external-script-a.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/assets/external-script-a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/external-script-b.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/assets/external-script-b.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/external-script-c.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/assets/external-script-c.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/external-script-d.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/assets/external-script-d.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/assets/beeping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/assets/beeping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/assets/beeping.wav" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/assets/beeping.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/assets/image1.png" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/assets/image1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/assets/image2.png" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/assets/image2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/barebones.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/barebones.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/embedded-media.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/embedded-media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/slide-backgrounds.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/slide-backgrounds.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/examples/slide-transitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/examples/slide-transitions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/qunit-2.5.0.css" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/qunit-2.5.0.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/qunit-2.5.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/qunit-2.5.0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/simple.md" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/simple.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-dependencies-async.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-dependencies-async.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-dependencies.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-dependencies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-grid-navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-grid-navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-iframes.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-iframes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-element-attributes.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-element-attributes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-element-attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-element-attributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-external.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-external.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-external.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-external.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-options.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-options.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-slide-attributes.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-slide-attributes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown-slide-attributes.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown-slide-attributes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-markdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-markdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-pdf.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-pdf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-pdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-pdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-plugins.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-plugins.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test-state.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test-state.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/test/test.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1TWMTuyQKcQGq55IlaTxcV6fY9p" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/presentation" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.grunt">
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="daa5c659-85c4-4c74-888d-28460b359a1f" name="Default Changelist" comment="" />
+      <created>1573571409072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573571409072</updated>
+      <workItem from="1573571410242" duration="995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
