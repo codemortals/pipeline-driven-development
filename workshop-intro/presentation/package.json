@@ -1,6 +1,6 @@
 {
-    "name": "pipeline-driven-development-presentation",
-    "version": "1.0.0",
+    "name": "pipeline-driven-development-workshop",
+    "version": "1.8.0",
     "description": "Angular + Cypress + Cucumber",
     "scripts": {
         "test": "grunt test",
