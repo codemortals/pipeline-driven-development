@@ -39,18 +39,29 @@
                 <section>
                     <h2>Pipeline Driven Development</h2>
                     <h3>Angular / Circle / Cypress / Firebase</h3>
-                    <p>by</p>
-                    <p>Code Mortals</p>
+                    <p>by Code Mortals</p>
+                    <iframe data-autoplay width="540" height="300" src="http://www.youtube.com/embed/Hp0nlfhJg2M?rel=0"></iframe>
                 </section>
                 <section>
                     <h3>Agenda</h3>
                     <ul>
-                        <li>Part 1: Angular</li>
-                        <li>Part 2: Circle CI</li>
-                        <li>Part 3: Cypress</li>
-                        <li>Part 4: Cucumber</li>
-                        <li>Part 5: Firebase Hosting</li>
+                        <li>Intros: 7:00pm</li>
+                        <li>Part 1: 7:15pm Angular</li>
+                        <li>Part 2: 7:30pm Circle CI</li>
+                        <li>Part 3: 7:45pm Cypress</li>
+                        <li>Part 4: 8:15pm Cucumber</li>
+                        <li>Part 5: 8:30pm Firebase Hosting (stretch)</li>
                     </ul>
+                    <aside class="notes">
+                        Intros
+                        - Harriet
+                        - Who are CodeMortals
+                        Questions
+                        - Who thinks testing is important
+                        - Who does it
+                        - Why dont you do it
+                        -
+                    </aside>
                 </section>
             </section>
 
@@ -68,6 +79,11 @@
             <section>
                 <section>
                     <h2>CircleCI (CI)</h2>
+                    <a href="http://circleci.com">http://circleci.com</a>
+                    <img src="https://circleci.com/docs/assets/img/docs/org-centric-ui.png">
+                </section>
+                <section>
+                    <h3>CircleCI (CI)</h3>
                     <pre>
                         <code class="hljs">version: 2
 
@@ -92,24 +108,34 @@ jobs:
                     <pre><code class="hljs fragment fade-in-then-semi-out">npm install cypress --save-dev</code></pre>
                     <pre><code class="hljs fragment fade-in-then-semi-out">npm run cypress:open</code></pre>
                 </section>
+                <section>
+                    <h3>Cypress</h3>
+                    <img src="https://docs.cypress.io/img/guides/select-browser.b103817c.png">
+                </section>
             </section>
 
             <section>
                 <section>
                     <h2>Cucumber</h2>
                     <p><a href="https://github.com/TheBrainFamily/cypress-cucumber-preprocessor#readme">github.com/TheBrainFamily/cypress-cucumber-preprocessor</a></p>
-                    <pre><code class="hljs fragment fade-in-then-out">npm install --save-dev cypress-cucumber-preprocessor</code></pre>
-                    <pre><code class="hljs fragment fade-in-then-out">// cypress/plugins/index.js
+                    <pre><code class="hljs">npm install --save-dev cypress-cucumber-preprocessor</code></pre>
+                </section>
+                <section>
+                    <h3>Cucumber</h3>
+                    <pre><code class="hljs fragment fade-in-then-semi-out">// cypress/plugins/index.js
 const cucumber = require('cypress-cucumber-preprocessor').default
 
 module.exports = (on, config) => {
     on('file:preprocessor', cucumber())
 }</code></pre>
-                    <pre><code class="hljs fragment fade-in-then-out">// cypress.json
+                    <pre><code class="hljs fragment fade-in-then-semi-out">// cypress.json
 {
     "testFiles": "**/*.feature"
 }</code></pre>
-                    <pre><code class="hljs fragment fade-in-then-out">// cypress/integration/Google.feature
+                </section>
+                <section>
+                        <h3>Cucumber</h3>
+                    <pre><code class="hljs fragment fade-in-then-semi-out">// cypress/integration/Google.feature
 Feature: The Facebook
 
 I want to open a social network page
@@ -118,7 +144,7 @@ I want to open a social network page
 Scenario: Opening a social network page
     Given I open Google page
     Then I see "google" in the title</code></pre>
-                    <pre><code class="hljs fragment fade-in-then-out">// cypress/integration/navigation.js
+                    <pre><code class="hljs fragment fade-in-then-semi-out">// cypress/integration/navigation.js
 import { Given } from "cypress-cucumber-preprocessor/steps";
 
 Given('I open {string}', (url) => {
@@ -130,6 +156,13 @@ Given('I open {string}', (url) => {
             <section>
                 <section>
                     <h2>Firebase Hosting</h2>
+                    <ul>
+                        <li>1. Login into Firebase Console</li>
+                        <li>2. Create a project</li>
+                        <li>3. Add web app and follow instructions</li>
+                        <li>4. Perform deployment manually</li>
+                        <li>5. Deploy via CircleCI (don't forget to add your envarionment variable token to circle)</li>
+                    </ul>
                 </section>
             </section>
         </div>
@@ -148,9 +181,9 @@ Given('I open {string}', (url) => {
             </div>
         </div>
         <div class="reference">
-            <div>Slides (Open Source)</div>
+            <div>Open Source</div>
             <a href="https://github.com/codemortals/presentation-pipeline-driven-development"
-                target="_blank">https://github.com/codemortals/presentation-pipeline-driven-development</a>
+                target="_blank">https://github.com/codemortals/pipeline-driven-development</a>
         </div>
     </footer>
 
